@@ -1,0 +1,29 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.card-deck {
+    width: 50%;
+}
+#logo {
+	width: 150px;
+}
+#mealTypeLabel{
+    padding-top: 15px;
+}
+#submit{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}

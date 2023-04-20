@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Real M</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand"><img id="logo" src="reciperealm.png"></a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="home2.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recipe Options</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Social</a>
+                                <a class="dropdown-item" href="#">Privacy Policy</a>
+                                <a class="dropdown-item" href="#">Site Map</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <form action="">
+                        <div class="form-group">
+                            <label id="mealTypeLabel" for="mealType">Meal Type:</label>
+                            <select name="mealType" id="mealType">
+                                <option value="Breakfast"><b>Breakfast</b></option>
+                                <option value="Lunch"><b>Lunch</b></option>
+                                <option value="Dinner"><b>Dinner</b></option>
+                                <option value="Dessert"><b>Dessert</b></option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label id="CuisineLabel" for="cuisine">Cuisine:</label>
+                            <select name="cuisine" id="cuisine">
+                                <option value="French"><b>French</b></option>
+                                <option value="Chinese"><b>Chinese</b></option>
+                                <option value="Japanese"><b>Japanese</b></option>
+                                <option value="Italian"><b>Italian</b></option>
+                                <option value="Spanish"><b>Spanish</b></option>
+                                <option value="Indian"><b>Indian</b></option>
+                                <option value="Mexican"><b>Mexican</b></option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dishName">Dish Name:</label>
+                            <input type="text" class="form-control" id="email" name="email">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                        <div class="card-group">
+                            <div class="card">
+                                <img class="card-img-top" src="chickenparm.webp" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chicken Parmesan</h5>
+                                    <p class="card-text">Chicken parmesan, or chicken parmigiana (Italian: pollo alla
+                                        parmigiana), is a dish that consists of
+                                        breaded chicken breast covered in tomato sauce and mozzarella, parmesan, or
+                                        provolone cheese. A
+                                        quantity of ham or bacon is sometimes added.</p>
+                                    <a href="#" class="btn btn-primary">See Recipe</a><br><br>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="taco.jpeg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chicken Tacos</h5>
+                                    <p class="card-text">Chicken Tacos (Mexican pronunciation: [ˈTacos de Pollo']) is a
+                                        traditional Mexican food consisting of
+                                        a small hand-sized corn- or wheat-based tortilla topped with a filling. The
+                                        tortilla is then folded
+                                        around the filling and eaten by hand.</p>
+                                <a href="#" class="btn btn-primary">See Recipe</a><br><br>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    </row>
+                </div>
+            </div>
+            <footer class="footer page-footer font-small ">
+                <div class="container">
+                    <div class="row">
+                        <span class="text-muted">&copy; Mili Khatri 2023</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- Javascript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+
+</body>
+
+</html>
